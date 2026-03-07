@@ -1,0 +1,154 @@
+{
+  "ramgarh": {
+    "slug": "ramgarh",
+    "title": "Vikas Marble Murti Arts ",
+    "stats": "Ramgarh (Alwar) Rajasthan, India",
+    "shortDesc": "Primary manufacturing hub for large idols.",
+    "description": "Our Alwar studio is the heart of our manufacturing, specializing in large-scale temple idols.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "jaipur": {
+    "slug": "jaipur",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Jaipur, Rajasthan, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "makrana": {
+    "slug": "makrana",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Makrana, Rajasthan, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "delhi": {
+    "slug": "delhi",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Delhi, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "gurgaon": {
+    "slug": "gurgaon",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Gurgaon, Haryana, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "bengaluru": {
+    "slug": "bengaluru",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Bengaluru, Karnataka, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "noida": {
+    "slug": "noida",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Noida, U.P, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  },
+  "punjab": {
+    "slug": "punjab",
+   "title": "Vikas Marble Murti Arts ",
+    "stats": "Punjab, India",
+    "shortDesc": "Premium showroom for intricate marble art.",
+    "description": "Our Jaipur center focuses on intricate gold leafing work and modern aesthetics.",
+    "phone": "+919664106898",
+    "bannerImage": "/image/banner-1.png",
+    "gallery": [
+      "/image/radha-kirshna.png",
+      "/image/ram-darbaar.png",
+      "/image/saraswati.png",
+      "/image/sherawali.png",
+      "/image/shiv-parvati.png",
+      "/image/handicraft-2.png",
+      "/image/duck.png",
+      "/image/camel.png"
+    ]
+  }
+}

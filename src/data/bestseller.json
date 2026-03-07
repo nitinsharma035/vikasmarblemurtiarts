@@ -1,0 +1,10 @@
+[
+  { "id": 11, "name": "Pure Makrana Marble Iskcon Radha Krishna", "image": "/image/iskon.png", "category": "Premium Deities" }, 
+  { "id": 12, "name": "Designer Marble Tulsi Kyari", "image": "/image/tulsi-kyari.png", "category": "Home & Garden" },
+  { "id": 13, "name": "Vittala Rukmani Marble Murti", "image": "/image/vittala-rukmani.png", "category": "Classic Collection" },
+  { "id": 14, "name": "Gold Painted Marble Saraswati Statue", "image": "/image/saraswati.png", "category": "Devotional" },
+  { "id": 15, "name": "White Marble Roman Lady Figure", "image": "/image/stutue-child.png", "category": "Human Figures" },
+  { "id": 16, "name": "Marble Inlay Elephant Pair (Meenakari Work)", "image": "/image/elephant-pair.png", "category": "Artifacts" },
+  { "id": 17, "name": "Lord Swaminarayan Marble Idol", "image": "/image/swaminarayan.png", "category": "Premium Deities" },
+  { "id": 18, "name": "Meditating Marble Buddha (Abhaya Mudra)", "image": "/image/buddha.png", "category": "Spiritual Art" } 
+]

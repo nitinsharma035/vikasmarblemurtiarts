@@ -1,0 +1,441 @@
+[
+  {
+    "id": 1,
+    "name": "White Ganpati Murti",
+    "image": "/image/ganpati.png",
+    "category": "God Statues",
+    "title": "Pure White Makarana Marble Ganpati Murti - Blessing Ganesha Statue",
+    "alt": "Premium white marble Lord Ganesha idol with intricate carving for Vastu and spiritual healing"
+  },
+  {
+    "id": 2,
+    "name": "Dattatreya Murti",
+    "image": "/image/Dattatreya.png",
+    "category": "God Statues",
+    "title": "Lord Dattatreya Marble Murti - Hindu Deity Three-Headed Statue",
+    "alt": "Exquisite white marble Lord Dattatreya idol with Kamadhenu cow for home mandir"
+  },
+  {
+    "id": 3,
+    "name": "Marble Elephant Pair",
+    "image": "/image/elephant-pair.png",
+    "category": "Home Decor",
+    "title": "Luxury Meenakari Painted Marble Elephant Pair - Royal Indian Decor",
+    "alt": "Decorative white marble elephants with traditional Rajasthani hand-painted floral designs"
+  },
+  {
+    "id": 4,
+    "name": "Durga Mata Statue",
+    "image": "/image/durga.png",
+    "category": "Devotional",
+    "title": "Maa Durga Marble Murti - Goddess Sherawali Idol for Temple",
+    "alt": "Hand-carved white marble Durga Maa statue sitting on lion for Navratri puja"
+  },
+  {
+    "id": 5,
+    "name": "Laxmi Ganesh Set",
+    "image": "/image/ganesh-laxmi.png",
+    "category": "God Statues",
+    "title": "Ganesh Laxmi Marble Idol Set - Diwali Puja Murti",
+    "alt": "Small hand-painted white marble Lakshmi Ganesha statue set for home temple"
+  },
+  {
+    "id": 6,
+    "name": "Designer Ganesh Murti",
+    "image": "/image/ganesh.png",
+    "category": "Divine Art",
+    "title": "Multicolor Painted Lord Ganesha Marble Murti - Vinayaka Statue",
+    "alt": "Beautifully colored white marble Ganesha idol sitting on lotus for prosperity"
+  },
+  {
+    "id": 7,
+    "name": "Marble Buddha Statue",
+    "image": "/image/buddha.png",
+    "category": "Home Decor",
+    "title": "Meditating White Marble Buddha Statue - Peace and Zen Decor",
+    "alt": "Serene white marble Gautama Buddha murti in meditation pose for interior decoration"
+  },
+  {
+    "id": 8,
+    "name": "Marble Jaali Camel",
+    "image": "/image/camel.png",
+    "category": "Classic Collection",
+    "title": "Handcrafted White Marble Camel Statue - Rajasthani Jaali Work",
+    "alt": "Intricately carved white marble camel decorative showpiece with traditional net work"
+  },
+  {
+    "id": 9,
+    "name": "Marble Swan Pair",
+    "image": "/image/duck.png",
+    "category": "Home Decor",
+    "title": "Designer Marble Swan Pair Statue - Modern Home Decor Accents",
+    "alt": "Elegant white and beige marble swan figurines for living room decoration"
+  },
+  {
+    "id": 10,
+    "name": "Marble Stone Cup",
+    "image": "/image/cup.png",
+    "category": "Classic Collection",
+    "title": "Pure White Marble Cup - Hand-Polished Stone Kitchenware",
+    "alt": "Minimalist handcrafted white marble tea cup made from premium natural stone"
+  },
+  {
+    "id": 11,
+    "name": "Hanuman Ji Statue",
+    "image": "/image/hanuman.png",
+    "category": "Devotional",
+    "title": "Lord Hanuman Marble Murti - Sankat Mochan Idol",
+    "alt": "Hand-painted white marble Hanuman ji statue with Gada"
+  },
+  {
+    "id": 12,
+    "name": "Iskcon Radha Krishna",
+    "image": "/image/iskon.png",
+    "category": "God Statues",
+    "title": "Iskcon Style Radha Krishna Marble Murti",
+    "alt": "Hand-painted white marble Radha Krishna Iskcon style idols"
+  },
+  {
+    "id": 13,
+    "name": "Radha Krishna Jugal",
+    "image": "/image/jugal-jodi.png",
+    "category": "God Statues",
+    "title": "Radha Krishna Jugal Jodi Marble Statue",
+    "alt": "White marble Radha Krishna statue in a loving pose"
+  },
+  {
+    "id": 14,
+    "name": "Gau Gopal Murti",
+    "image": "/image/gau-gopal.png",
+    "category": "God Statues",
+    "title": "Lord Krishna with Cow - Gau Gopal Marble Idol",
+    "alt": "Handcrafted white marble Krishna murti with cow"
+  },
+  {
+    "id": 15,
+    "name": "Gauri Shankar Parivar",
+    "image": "/image/gori-shankar.png",
+    "category": "Divine Art",
+    "title": "Shiv Parivar Marble Murti - Gauri Shankar Statue",
+    "alt": "Complete marble Shiv Parivar including Shiva, Parvati, Ganesh and Kartikeya"
+  },
+  {
+    "id": 16,
+    "name": "Marble Lantern & Vases",
+    "image": "/image/handicraft-1.png",
+    "category": "Classic Collection",
+    "title": "Handicraft Marble Lanterns and Decorative Vases",
+    "alt": "Collection of hand-painted marble lanterns and flower vases"
+  },
+  {
+    "id": 17,
+    "name": "Marble Kumkum Box",
+    "image": "/image/handicraft-2.png",
+    "category": "Classic Collection",
+    "title": "Meenakari Work Marble Kumkum Box Set",
+    "alt": "Beautifully painted marble Chopra or Kumkum box for puja"
+  },
+  {
+    "id": 18,
+    "name": "Marble Flower Pot",
+    "image": "/image/handicraft-4.png",
+    "category": "Home Decor",
+    "title": "Large Marble Garden Flower Pot - Planter",
+    "alt": "Classic white marble carved flower pot for garden and home decor"
+  },
+  {
+    "id": 19,
+    "name": "Designer Marble Pots",
+    "image": "/image/handicraft-pots.png",
+    "category": "Classic Collection",
+    "title": "Gold Painted Decorative Marble Pot Set",
+    "alt": "Set of designer marble pots with intricate gold meenakari work"
+  },
+  {
+    "id": 20,
+    "name": "Marble Bathroom Set",
+    "image": "/image/handwash.png",
+    "category": "Home Decor",
+    "title": "Premium Marble Soap Dispenser and Tumbler Set",
+    "alt": "Luxurious white marble bathroom accessories set with gold pump"
+  }, 
+  {
+    "id": 21,
+    "name": "Marble Laxmi Ji Murti",
+    "image": "/image/laxami.png",
+    "category": "God Statues",
+    "title": "Goddess Laxmi Marble Statue - Wealth and Prosperity Idol",
+    "alt": "Hand-painted white marble Mata Laxmi idol sitting on lotus for home temple"
+  },
+  {
+    "id": 22,
+    "name": "Mahaveer Swami Murti",
+    "image": "/image/mahaveer-jain.png",
+    "category": "God Statues",
+    "title": "Lord Mahaveer Jain Marble Statue - Digambar Jain Idol",
+    "alt": "Pure white marble Mahaveer Swami murti in meditation pose for Jain temple"
+  },
+  {
+    "id": 23,
+    "name": "Baba Mohan Ram Statue",
+    "image": "/image/mohanram.png",
+    "category": "Devotional",
+    "title": "Baba Mohan Ram Marble Murti - Horse Riding Statue",
+    "alt": "Colorful marble idol of Baba Mohan Ram riding a blue horse"
+  },
+  {
+    "id": 24,
+    "name": "Panchmukhi Hanuman Murti",
+    "image": "/image/puch-mukhi.png",
+    "category": "Devotional",
+    "title": "Lord Panchmukhi Hanuman Marble Murti - Five Faced Idol",
+    "alt": "Detailed hand-painted white marble Panchmukhi Hanuman ji statue with weapons"
+  },
+  {
+    "id": 25,
+    "name": "White Panchmukhi Hanuman",
+    "image": "/image/puch-mukhi-1.png",
+    "category": "Devotional",
+    "title": "White Marble Panchmukhi Hanuman Statue - Carved Idol",
+    "alt": "Pure white marble carved Panchmukhi Hanuman ji sitting pose for Vastu"
+  },
+  {
+    "id": 26,
+    "name": "Red Stone Hanuman Ji",
+    "image": "/image/puch-mukhi-hanuman.png",
+    "category": "Devotional",
+    "title": "Red Sandstone Panchmukhi Hanuman Murti",
+    "alt": "Traditional red stone carved five-faced Hanuman ji idol"
+  },
+  {
+    "id": 27,
+    "name": "Mata Kaali Marble Murti",
+    "image": "/image/kaali.png",
+    "category": "God Statues",
+    "title": "Goddess Kaali Black Marble Statue - Mahakali Idol",
+    "alt": "Fierce form of Mata Kaali carved in black stone/marble for temple"
+  },
+  {
+    "id": 28,
+    "name": "Khatu Shyam Ji Murti",
+    "image": "/image/khatu.png",
+    "category": "Devotional",
+    "title": "Baba Khatu Shyam Ji Marble Murti - Sheesh Ke Daani",
+    "alt": "Beautifully painted Khatu Shyam ji marble sheesh idol for home puja"
+  },
+  {
+    "id": 29,
+    "name": "Sleeping Buddha Statue",
+    "image": "/image/kuber-maharaj.png",
+    "category": "Home Decor",
+    "title": "Reclining Buddha Marble Statue - Nirvana Pose",
+    "alt": "Serene white marble sleeping Buddha murti for peaceful home decor"
+  },
+  {
+    "id": 30,
+    "name": "Makhan Chor Ladoo Gopal",
+    "image": "/image/laddo-gopal.png",
+    "category": "God Statues",
+    "title": "Ladoo Gopal Marble Murti - Bal Krishna Makhan Chor",
+    "alt": "Cute baby Krishna Ladoo Gopal marble statue with butter pot"
+  }, {
+    "id": 31,
+    "name": "Vitthal Rukmini Murti",
+    "image": "/image/vittala-rukmani.png",
+    "category": "God Statues",
+    "title": "Vitthal Rukmini Black Marble Statue - Pandharpur Lord Vitthal",
+    "alt": "Traditional black marble Vitthal Rukmini idol set for home temple and spiritual puja"
+  },
+  {
+    "id": 32,
+    "name": "Radha Krishna Jhoola",
+    "image": "/image/radha-kirshan-jhoola.png",
+    "category": "Divine Art",
+    "title": "Radha Krishna on Swing Marble Murti - Jhoola Statue",
+    "alt": "Beautifully carved marble Radha Krishna jugal jodi sitting on a decorative swing under a tree"
+  },
+  {
+    "id": 33,
+    "name": "Iskcon Radha Krishna",
+    "image": "/image/radha-kirshna.png",
+    "category": "God Statues",
+    "title": "Radha Krishna Marble Statue - Iskcon Style Jugal Jodi",
+    "alt": "Hand-painted white marble Radha Krishna idols with gold work for home temple decor"
+  },
+  {
+    "id": 34,
+    "name": "Ram Darbar Statue",
+    "image": "/image/ram-darbaar.png",
+    "category": "God Statues",
+    "title": "Ram Darbar White Marble Murti Set - Ram Laxman Sita",
+    "alt": "Complete white marble Ram Darbar set including Lord Ram, Laxman, Mata Sita and Hanuman ji"
+  },
+  {
+    "id": 35,
+    "name": "Colored Ram Darbar",
+    "image": "/image/ram-darbaar-1.png",
+    "category": "God Statues",
+    "title": "Painted Ram Darbar Marble Murti - Religious Idol Set",
+    "alt": "Beautifully colored and decorated marble Ram Darbar idols for temple and gifting"
+  },
+  {
+    "id": 36,
+    "name": "Marble Sai Baba Idol",
+    "image": "/image/sai-baba.png",
+    "category": "Spiritual",
+    "title": "Shirdi Sai Baba White Marble Murti - Sitting Pose",
+    "alt": "Pure white marble Shirdi Sai Baba statue in sitting posture for peace and blessings"
+  },
+  {
+    "id": 37,
+    "name": "Mata Saraswati Murti",
+    "image": "/image/saraswati.png",
+    "category": "God Statues",
+    "title": "Goddess Saraswati Marble Statue - Knowledge Deity Murti",
+    "alt": "Hand-carved white marble Saraswati maa idol playing Veena, sitting on lotus with a swan"
+  },
+  {
+    "id": 38,
+    "name": "Shani Dev Bhagwan",
+    "image": "/image/shanidev.png",
+    "category": "God Statues",
+    "title": "Lord Shani Dev Black Stone Murti - Protection Idol",
+    "alt": "Durable black stone/marble Shani Dev idol with weapons and Vahana for Shani Shanti puja"
+  },
+  {
+    "id": 39,
+    "name": "Sheetla Mata Statue",
+    "image": "/image/sheetla.png",
+    "category": "Devotional",
+    "title": "Mata Sheetla Devi Marble Murti - Folk Deity Statue",
+    "alt": "Colorful marble statue of Sheetla Mata riding a donkey for traditional Indian rituals"
+  },
+  {
+    "id": 40,
+    "name": "Maa Durga Sherawali",
+    "image": "/image/sherawali.png",
+    "category": "Devotional",
+    "title": "Durga Mata Sherawali Marble Murti - Lion Riding Idol",
+    "alt": "Vibrant hand-painted white marble Durga Maa statue sitting on a lion with multiple weapons"
+  },
+  {
+    "id": 41,
+    "name": "Lord Shani Dev Murti",
+    "image": "/image/shanidev.png",
+    "category": "God Statues",
+    "title": "Lord Shani Dev Black Marble Murti - Justice Deity Statue",
+    "alt": "Shani Dev marble idol in black finish with traditional weapons for protection and justice"
+  },
+  {
+    "id": 42,
+    "name": "Mata Sheetla Statue",
+    "image": "/image/sheetla.png",
+    "category": "God Statues",
+    "title": "Mata Sheetla Marble Murti - Colorful Religious Statue",
+    "alt": "Goddess Sheetla marble idol sitting on a donkey with traditional offerings for home puja"
+  },
+  {
+    "id": 43,
+    "name": "Sherawali Mata Murti",
+    "image": "/image/sherawali.png",
+    "category": "Devotional",
+    "title": "Durga Sherawali Marble Statue - Lion Riding Goddess",
+    "alt": "Hand-painted white marble Durga Mata statue sitting on lion for Navratri temple decor"
+  },
+  {
+    "id": 44,
+    "name": "Swaminarayan Statue",
+    "image": "/image/swaminarayan.png",
+    "category": "God Statues",
+    "title": "Bhagwan Swaminarayan White Marble Murti",
+    "alt": "Pure white marble Swaminarayan Bhagwan idol in standing pose for spiritual peace"
+  },
+  {
+    "id": 45,
+    "name": "Marble Tea Light Set",
+    "image": "/image/tealight.png",
+    "category": "Home Decor",
+    "title": "Handcrafted White Marble Tea Light Holders",
+    "alt": "Set of minimalist white marble candle holders for festival decoration and home aesthetics"
+  },
+  {
+    "id": 46,
+    "name": "Modern Marble Votive",
+    "image": "/image/tealight-1.png",
+    "category": "Home Decor",
+    "title": "Modern Marble Votive Candle Holders - Home Fragrance",
+    "alt": "Elegant white marble tea light holders with burning candles for a serene atmosphere"
+  },
+  {
+    "id": 47,
+    "name": "Veer Tejaji Murti",
+    "image": "/image/tejaji.png",
+    "category": "Devotional",
+    "title": "Veer Tejaji Maharaj Marble Statue - Folk Deity",
+    "alt": "Colorful marble idol of Veer Tejaji riding a horse with traditional snake symbol"
+  },
+  {
+    "id": 48,
+    "name": "Meditating Shiva Murti",
+    "image": "/image/shiv-1.png",
+    "category": "Divine Art",
+    "title": "Lord Shiva Meditating Marble Statue - Mahadev Murti",
+    "alt": "Serene white marble Lord Shiva idol in dhyana mudra with Trishul and Damru"
+  },
+  {
+    "id": 49,
+    "name": "Ganesh Laxmi Saraswati",
+    "image": "/image/shiv-parivar.png",
+    "category": "God Statues",
+    "title": "Trideva Marble Set - Ganesh Laxmi Saraswati",
+    "alt": "Individual white marble idols of Lord Ganesha, Mata Laxmi, and Mata Saraswati for Diwali"
+  },
+  {
+    "id": 50,
+    "name": "Shiv Parvati Idol",
+    "image": "/image/shiv-parvati.png",
+    "category": "Divine Art",
+    "title": "Shiv Parvati Marble Murti - Uma Maheshwar Statue",
+    "alt": "Classic white marble statue of Lord Shiva and Mata Parvati sitting together"
+  },
+  {
+    "id": 51,
+    "name": "Marble Surya Dev Murti",
+    "image": "/image/suryadev.png",
+    "category": "God Statues",
+    "title": "Lord Surya Dev Marble Statue - Sun God with Seven Horses",
+    "alt": "Hand-painted white marble Surya Dev idol sitting on a chariot with seven white horses"
+  },
+  {
+    "id": 52,
+    "name": "White Marble Temple",
+    "image": "/image/temple.png",
+    "category": "Classic Collection",
+    "title": "Handcrafted White Marble Mandir for Home - Small Size",
+    "alt": "Beautifully carved pure white marble temple for home entrance or living room mandir"
+  },
+  {
+    "id": 53,
+    "name": "Meenakari Marble Mandir",
+    "image": "/image/temple-1.png",
+    "category": "Classic Collection",
+    "title": "Gold Painted Meenakari Marble Temple - Set of 3",
+    "alt": "Decorative marble temples with intricate gold painting and peacock meenakari work"
+  },
+  {
+    "id": 54,
+    "name": "Marble Tulsi Kyari",
+    "image": "/image/tulsi-kyari.png",
+    "category": "Home Decor",
+    "title": "Classic White Marble Tulsi Plant Pot - Tulsi Kyari",
+    "alt": "Traditional white marble carved Tulsi Kyari for outdoor garden or courtyard decoration"
+  },
+  {
+    "id": 55,
+    "name": "Vishnu Laxmi Murti",
+    "image": "/image/vishnu-laxami.png",
+    "category": "God Statues",
+    "title": "Lord Vishnu and Mata Laxmi Marble Statue - Jugal Jodi",
+    "alt": "Beautifully colored white marble Vishnu Laxmi idols sitting on lotus for wealth and prosperity"
+  }
+]
