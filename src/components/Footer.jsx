@@ -80,6 +80,15 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
+                  <Phone size={20} className="text-[#c02177] shrink-0" />
+                  <a
+                    href="tel:+919828641895"
+                    className="hover:text-white transition-colors"
+                  >
+                    +91 9828641895
+                  </a>
+                </li>
+                <li className="flex items-center gap-3">
                   <Mail size={20} className="text-[#c02177] shrink-0" />
                   <a
                     href="mailto:info@vikasmarblemurtiarts.com"
