@@ -8,6 +8,7 @@ const ContactPage = () => {
   const [isSent, setIsSent] = useState(false);
 
   const phoneNumber = "919664106898"; 
+  const phoneNumber1 = "919828641895";
   const sendEmail = (e) => {
     e.preventDefault();
     setIsSubmitting(true); 
@@ -73,6 +74,7 @@ const ContactPage = () => {
                 <MapPin className="text-[#c02177] mb-4" size={28} />
                 <h4 className="font-bold text-[#2a145b] mb-2 text-lg">Our Shop</h4>
                 <p className="text-stone-500 text-sm">
+                  Shop no. 38, Chaman market, Kheri Road,
                   Ramgarh (Alwar) Rajasthan, 301026, India
                 </p>
               </div> 
@@ -80,11 +82,12 @@ const ContactPage = () => {
                 <Phone className="text-[#c02177] mb-4" size={28} />
                 <h4 className="font-bold text-[#2a145b] mb-2 text-lg">Call Us</h4>
                 <p className="text-stone-500 text-sm">+91 {phoneNumber}</p>
+                <p className="text-stone-500 text-sm">+91 {phoneNumber1}</p>
               </div> 
               <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100 hover:border-[#c02177]/30 transition-all">
                 <Mail className="text-[#c02177] mb-4" size={28} />
                 <h4 className="font-bold text-[#2a145b] mb-2 text-lg">Email Us</h4>
-                <p className="text-stone-500 text-sm">info@vikasmarblemurtiarts.com</p>
+                <p className="text-stone-500 text-sm">vikassharma9828641895@gmail.com</p>
               </div> 
               <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100 hover:border-[#c02177]/30 transition-all">
                 <Clock className="text-[#c02177] mb-4" size={28} />
@@ -188,7 +191,7 @@ const ContactPage = () => {
       <div className="w-full h-[400px] grayscale hover:grayscale-0 transition-all duration-700 overflow-hidden border-t border-stone-100">
         <iframe
           title="Vikas Marble Murti Arts Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.8378903741123!2d76.812328!3d27.351221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDIxJzA0LjQiTiA3NsKwNDgnNDQuNCJF!5e0!3m2!1sen!2sin!4v1700000000000" // कृपया अपनी असली मैप लिंक यहाँ पेस्ट करें
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.558761443523!2d76.81263187529582!3d27.576201276258022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39729594ff62d61b%3A0xa9eed10f991ae07d!2sChaman%20market!5e0!3m2!1sen!2sin!4v1777368031435!5m2!1sen!2sin" 
           width="100%"
           height="100%"
           style={{ border: 0 }}

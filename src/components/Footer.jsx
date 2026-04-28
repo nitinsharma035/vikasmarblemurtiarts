@@ -66,8 +66,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin size={20} className="text-[#c02177] shrink-0" />
                   <span>
-                    Ramgarh Alwar, Rajasthan, <br />
-                    India - 301026
+                   Shop no. 38, Chaman market, Kheri Road, Ramgarh (Alwar) Rajasthan, 301026, India
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
