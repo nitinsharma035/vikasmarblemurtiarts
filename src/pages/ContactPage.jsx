@@ -7,8 +7,8 @@ const ContactPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSent, setIsSent] = useState(false);
 
-  const phoneNumber = "919664106898"; 
-  const phoneNumber1 = "919828641895";
+  const phoneNumber = "9664106898"; 
+  const phoneNumber1 = "9828641895";
   const sendEmail = (e) => {
     e.preventDefault();
     setIsSubmitting(true); 
