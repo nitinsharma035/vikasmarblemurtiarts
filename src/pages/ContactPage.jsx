@@ -74,7 +74,7 @@ const ContactPage = () => {
                 <MapPin className="text-[#c02177] mb-4" size={28} />
                 <h4 className="font-bold text-[#2a145b] mb-2 text-lg">Our Shop</h4>
                 <p className="text-stone-500 text-sm">
-                  Shop no. 38, Chaman market, Kheri Road,
+                  Shop no. 36, Chaman market, Kheri Road,
                   Ramgarh (Alwar) Rajasthan, 301026, India
                 </p>
               </div> 

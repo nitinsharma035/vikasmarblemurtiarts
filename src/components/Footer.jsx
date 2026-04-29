@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Heart } from "lucide-react";
+// Sabhi zaroori icons import kiye gaye hain
+import { Phone, Mail, MapPin, Heart, Instagram } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear(); 
@@ -23,20 +24,22 @@ const Footer = () => {
               Crafting divine excellence through authentic Makrana marble since
               2001. Bringing spirituality to your home.
             </p>
-            {/* <div className="flex gap-4">
-              <Link
-                to="#"
-                className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300"
+            
+            {/* Social Media Section */}
+            <div className="flex flex-wrap gap-4 pt-2">
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/vikasmarblemurtiarts/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300 border border-white/10"
               >
                 <Instagram size={20} />
-              </Link>
-              <Link
-                to="#"
-                className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300"
-              >
-                <Facebook size={20} />
-              </Link>
-            </div> */}
+              </a>
+
+               
+               
+            </div>
           </div>
 
           <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-10"> 
@@ -66,33 +69,24 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin size={20} className="text-[#c02177] shrink-0" />
                   <span>
-                   Shop no. 38, Chaman market, Kheri Road, Ramgarh (Alwar) Rajasthan. 301026  India
+                   Shop no. 36, Chaman market, Kheri Road, Ramgarh (Alwar) Rajasthan. 301026 India
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone size={20} className="text-[#c02177] shrink-0" />
-                  <a
-                    href="tel:+919664106898"
-                    className="hover:text-white transition-colors"
-                  >
+                  <a href="tel:+919664106898" className="hover:text-white transition-colors">
                     +91 9664106898
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone size={20} className="text-[#c02177] shrink-0" />
-                  <a
-                    href="tel:+919828641895"
-                    className="hover:text-white transition-colors"
-                  >
+                  <a href="tel:+919828641895" className="hover:text-white transition-colors">
                     +91 9828641895
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail size={20} className="text-[#c02177] shrink-0" />
-                  <a
-                    href="mailto:	vikassharma9828641895@gmail.com"
-                    className="hover:text-white transition-colors"
-                  >
+                  <a href="mailto:vikassharma9828641895@gmail.com" className="hover:text-white transition-colors">
                     vikassharma9828641895@gmail.com
                   </a>
                 </li>
@@ -114,30 +108,20 @@ const Footer = () => {
             </div>
           </div>
         </div> 
+
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-400 font-medium">
           <p>© {currentYear} Vikas Marble Murti Arts. All Rights Reserved.</p>
-
           <div className="flex gap-8"> 
-            <Link
-              to="/privacy-policy"
-              className="hover:text-white transition-colors duration-300"
-            >
+            <Link to="/privacy-policy" className="hover:text-white transition-colors duration-300">
               Privacy Policy
             </Link> 
-            <Link
-              to="/terms-and-conditions"
-              className="hover:text-white transition-colors duration-300"
-            >
+            <Link to="/terms-and-conditions" className="hover:text-white transition-colors duration-300">
               Terms of Service
             </Link>
           </div>
-
           <p className="flex items-center gap-1.5">
             Designed with
-            <Heart
-              size={16}
-              className="text-red-500 fill-red-500 animate-pulse"
-            />
+            <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />
             for
             <a
               href="https://wa.me/916367035900"
