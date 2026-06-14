@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
-import { Mail, Phone, MapPin, Clock, MessageCircle, Send, CheckCircle } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
@@ -74,8 +75,7 @@ const ContactPage = () => {
                 <MapPin className="text-[#c02177] mb-4" size={28} />
                 <h4 className="font-bold text-[#2a145b] mb-2 text-lg">Our Shop</h4>
                 <p className="text-stone-500 text-sm">
-                  Shop no. 36, Chaman market, Kheri Road,
-                  Ramgarh (Alwar) Rajasthan, 301026, India
+                  HRP5+5XP, Ramgarh (Alwar) Rajasthan 301026 India
                 </p>
               </div> 
               <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100 hover:border-[#c02177]/30 transition-all">
@@ -99,7 +99,7 @@ const ContactPage = () => {
               onClick={handleWhatsAppClick}
               className="w-full py-4 bg-[#2a145b] hover:bg-[#c02177] text-white rounded-2xl flex items-center justify-center gap-3 transition-all duration-500 shadow-xl shadow-[#2a145b]/20"
             >
-              <MessageCircle size={24} />
+              <FaWhatsapp size={24} />
               <span className="font-bold uppercase tracking-widest text-sm">Chat on WhatsApp</span>
             </button>
           </div> 

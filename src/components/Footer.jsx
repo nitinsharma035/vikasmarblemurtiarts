@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Sabhi zaroori icons import kiye gaye hain
+import { FaWhatsapp } from "react-icons/fa";
 import { Phone, Mail, MapPin, Heart, Instagram } from "lucide-react";
 
 const Footer = () => {
@@ -36,6 +37,15 @@ const Footer = () => {
               >
                 <Instagram size={20} />
               </a>
+              <a
+                href="https://wa.me/9664106898" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300 border border-white/10"
+              >
+                <FaWhatsapp size={20} />
+              </a>
+
 
                
                
@@ -69,7 +79,7 @@ const Footer = () => {
                 <li className="flex items-start gap-3">
                   <MapPin size={20} className="text-[#c02177] shrink-0" />
                   <span>
-                   Shop no. 36, Chaman market, Kheri Road, Ramgarh (Alwar) Rajasthan. 301026 India
+                   <a href="https://maps.app.goo.gl/5Fj2ZBRuz12HxF6Y8">HRP5+5XP, Ramgarh (Alwar) Rajasthan 301026 India</a>
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
