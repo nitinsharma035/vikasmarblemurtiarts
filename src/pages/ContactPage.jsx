@@ -191,7 +191,7 @@ const ContactPage = () => {
       <div className="w-full h-[400px] grayscale hover:grayscale-0 transition-all duration-700 overflow-hidden border-t border-stone-100">
         <iframe
           title="Vikas Marble Murti Arts Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.558761443523!2d76.81263187529582!3d27.576201276258022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39729594ff62d61b%3A0xa9eed10f991ae07d!2sChaman%20market!5e0!3m2!1sen!2sin!4v1777368031435!5m2!1sen!2sin" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.2596300736736!2d76.8099077!3d27.585479199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397295b98ecb03c5%3A0xc52d306c18c7b1d0!2svikas%20marble%20murti%20arts%20%26%20gift%20items!5e0!3m2!1sen!2sin!4v1781433255343!5m2!1sen!2sin" 
           width="100%"
           height="100%"
           style={{ border: 0 }}
