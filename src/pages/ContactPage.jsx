@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import { Helmet } from 'react-helmet-async';
 
 const ContactPage = () => {
   const form = useRef();
@@ -39,6 +40,17 @@ const ContactPage = () => {
 
   return (
     <div className="bg-white min-h-screen"> 
+      <Helmet>
+            <title>Contact Marble Murti Maker Near You | Vikas Marble  Murti Arts - India</title>
+            <meta 
+              name="description" 
+              content="Vikas Marble Murti Arts offers premium 100% pure Makrana marble idols and statues since 2001. Expertly crafted in Jaipur, we specialize in Vastu-compliant temple sculptures with global shipping." 
+            />
+            <meta name="geo.region" content="IN-RJ" />
+            <meta name="geo.placename" content="Jaipur" />
+            <link rel="canonical" href="https://vikasmarblemurtiarts.in/contact" />
+          </Helmet>
+    
       <div className="bg-[#2a145b] py-20 px-4 text-center">
         <h1
           style={{ fontFamily: "Satoshi, sans-serif" }}

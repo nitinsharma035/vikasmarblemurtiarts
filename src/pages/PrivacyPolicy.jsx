@@ -1,8 +1,18 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet-async';
 const PrivacyPolicy = () => {
   return (
     <div className="bg-white min-h-screen pb-20"> 
+      <Helmet>
+            <title>Privacy Policy | Vikas Marble Murti Arts | Your Data is Safe With Us</title>
+            <meta 
+              name="description" 
+              content="Read the Privacy Policy of Vikas Marble Murti Arts. Learn how we collect, use, and protect your personal information when you shop for marble murtis and god idols online." 
+            />
+            <meta name="geo.region" content="IN-RJ" />
+            <meta name="geo.placename" content="Jaipur" />
+            <link rel="canonical" href="https://vikasmarblemurtiarts.in/privacy-policy" />
+          </Helmet>
       <div className="bg-[#2a145b] py-16 px-4 text-center">
         <h1 
           style={{ fontFamily: 'Satoshi, sans-serif' }} 

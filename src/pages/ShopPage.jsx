@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, ShoppingCart, Star } from "lucide-react";
 import products from "../data/shopproduct.json";
+import { Helmet } from 'react-helmet-async';
 
 const ShopPage = () => {
   const phoneNumber = "919664106898";
@@ -41,6 +42,15 @@ const ShopPage = () => {
 
   return (
     <div className="bg-white min-h-screen pb-20 font-['Satoshi']"> 
+    <Helmet>
+                <title>Buy Marble Murtis Online | God Idols, Statues & Sculptures | Vikas Marble Murti Arts</title>
+                <meta 
+                  name="description" 
+                  content="Shop a premium collection of marble god idols - Radha Krishna, Ganesh, Shiva, Durga & more. All sizes available. Custom orders welcome. Free shipping on select products."/>
+                <meta name="geo.region" content="IN-RJ" />
+                <meta name="geo.placename" content="Jaipur" />
+                <link rel="canonical" href="https://vikasmarblemurtiarts.in/shop" />
+              </Helmet>
       <div className="bg-[#2a145b] py-16 px-4 text-center">
         <h1 className="text-3xl md:text-5xl font-['Erode'] font-bold text-white uppercase tracking-tight">
           Our Collection

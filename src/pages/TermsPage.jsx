@@ -1,8 +1,18 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet-async';
 const TermsPage = () => {
   return (
     <div className="bg-white min-h-screen pb-20"> 
+     <Helmet>
+                    <title>Terms & Conditions - Vikas Marble Murti Arts | Ordering & Shipping Rules Explained</title>
+                    <meta 
+                      name="description" 
+                      content="Before purchasing a marble murti from Vikas Marble Murti Arts, read our terms covering custom order policies, delivery timelines, payment terms, return conditions, and cancellation rules." 
+                    />
+                    <meta name="geo.region" content="IN-RJ" />
+                    <meta name="geo.placename" content="Jaipur" />
+                    <link rel="canonical" href="https://vikasmarblemurtiarts.in/terms-and-conditions" />
+                  </Helmet>
       <div className="bg-[#2a145b] py-16 px-4 text-center">
         <h1 
           style={{ fontFamily: 'Satoshi, sans-serif' }} 

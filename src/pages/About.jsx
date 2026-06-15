@@ -3,15 +3,28 @@ import { motion } from 'framer-motion';
 import { ShieldCheck, Globe2, Award, Gem } from 'lucide-react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+import { Helmet } from 'react-helmet-async';
 
-const AboutPage = () => { 
+const AboutPage = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
   });
 
   return (
-    <div className="bg-white overflow-hidden"> 
+    <div className="bg-white overflow-hidden">
+      <Helmet>
+        <title>About Vikas Marble Murti Arts | Master Craftsmen of Marble Idols Since 2001</title>
+        <meta 
+          name="description" 
+          content="Vikas Marble Murti Arts is a trusted name in handcrafted marble god idols. With years of experience and skilled artisans, we deliver devotion in every sculpture." 
+        />
+        <meta name="geo.region" content="IN-RJ" />
+        <meta name="geo.placename" content="Jaipur" />
+        <link rel="canonical" href="https://vikasmarblemurtiarts.in/about" />
+      </Helmet>
+
+      {/* 1. Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
         <div className="absolute inset-0">
           <img 
@@ -76,58 +89,35 @@ const AboutPage = () => {
             />
           </div>
         </div>
-      </section> 
+      </section>
+
+      {/* 3. Stats Section */}
       <section ref={ref} className="bg-[#2a145b] py-20">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-12 text-center">
-          <div>
-            <span className="text-white text-5xl font-black block mb-2">
-              {inView ? <CountUp end={25} duration={3} /> : "0"}+
-            </span>
-            <span className="text-amber-400 uppercase text-xs tracking-[0.3em] font-bold">Years of Heritage</span>
-          </div>
-          <div>
-            <span className="text-white text-5xl font-black block mb-2">
-              {inView ? <CountUp end={12000} separator="," duration={3} /> : "0"}+
-            </span>
-            <span className="text-amber-400 uppercase text-xs tracking-[0.3em] font-bold">Divine Creations</span>
-          </div>
-          <div>
-            <span className="text-white text-5xl font-black block mb-2">
-              {inView ? <CountUp end={50} duration={3} /> : "0"}+
-            </span>
-            <span className="text-amber-400 uppercase text-xs tracking-[0.3em] font-bold">Master Artists</span>
-          </div>
-          <div>
-            <span className="text-white text-5xl font-black block mb-2">
-              {inView ? <CountUp end={100} duration={3} /> : "0"}%
-            </span>
-            <span className="text-amber-400 uppercase text-xs tracking-[0.3em] font-bold">Pure Quality</span>
-          </div>
+          {[
+            { end: 25, label: "Years of Heritage" },
+            { end: 12000, label: "Divine Creations" },
+            { end: 50, label: "Master Artists" },
+            { end: 100, label: "Pure Quality", suffix: "%" }
+          ].map((stat, idx) => (
+            <div key={idx}>
+              <span className="text-white text-5xl font-black block mb-2">
+                {inView ? <CountUp end={stat.end} separator="," duration={3} /> : "0"}{stat.suffix || "+"}
+              </span>
+              <span className="text-amber-400 uppercase text-xs tracking-[0.3em] font-bold">{stat.label}</span>
+            </div>
+          ))}
         </div>
-      </section> 
+      </section>
+
+      {/* 4. Features Section */}
       <section className="bg-stone-50 py-20 px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { 
-              icon: <Gem className="text-[#c02177]" size={32} />, 
-              title: "Makrana Excellence", 
-              desc: "Ethically sourced A-grade Makrana marble ensuring a timeless white glow." 
-            },
-            { 
-              icon: <Award className="text-[#c02177]" size={32} />, 
-              title: "Vedic Precision", 
-              desc: "Carving aligned with Shastra and Vastu principles for spiritual harmony." 
-            },
-            { 
-              icon: <Globe2 className="text-[#c02177]" size={32} />, 
-              title: "Global Shipping", 
-              desc: "Expert wooden-crate packaging and fully insured international delivery." 
-            },
-            { 
-              icon: <ShieldCheck className="text-[#c02177]" size={32} />, 
-              title: "Lifetime Promise", 
-              desc: "Marble that resists weathering, maintaining its divinity for generations." 
-            }
+            { icon: <Gem className="text-[#c02177]" size={32} />, title: "Makrana Excellence", desc: "Ethically sourced A-grade Makrana marble ensuring a timeless white glow." },
+            { icon: <Award className="text-[#c02177]" size={32} />, title: "Vedic Precision", desc: "Carving aligned with Shastra and Vastu principles for spiritual harmony." },
+            { icon: <Globe2 className="text-[#c02177]" size={32} />, title: "Global Shipping", desc: "Expert wooden-crate packaging and fully insured international delivery." },
+            { icon: <ShieldCheck className="text-[#c02177]" size={32} />, title: "Lifetime Promise", desc: "Marble that resists weathering, maintaining its divinity for generations." }
           ].map((feature, idx) => (
             <div key={idx} className="bg-white p-10 rounded-3xl border border-stone-100 hover:border-[#c02177]/30 transition-all hover:shadow-xl group">
               <div className="mb-6 group-hover:scale-110 transition-transform">{feature.icon}</div>
@@ -136,24 +126,18 @@ const AboutPage = () => {
             </div>
           ))}
         </div>
-      </section> 
+      </section>
+
+      {/* 5. Call to Action */}
       <section className="py-24 text-center px-6">
-        <h2 
-          style={{ fontFamily: 'Satoshi, sans-serif' }} 
-          className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight"
-        >
+        <h2 style={{ fontFamily: 'Satoshi, sans-serif' }} className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight">
           Experience Divine Artistry
         </h2>
-        <p 
-          style={{ fontFamily: 'Erode, serif' }} 
-          className="text-stone-500 italic text-xl mb-10 max-w-2xl mx-auto leading-relaxed"
-        >
+        <p style={{ fontFamily: 'Erode, serif' }} className="text-stone-500 italic text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
           From our workshop in Jaipur to your sacred home, we bring the finest marble carvings.
-        </p> 
+        </p>
         <a href="tel:+919664106898">
-          <button 
-            className="bg-[#c02177] hover:bg-[#2a145b] text-white px-12 py-4 rounded-full font-bold transition-all shadow-2xl hover:-translate-y-1 uppercase tracking-widest text-sm active:scale-95"
-          >
+          <button className="bg-[#c02177] hover:bg-[#2a145b] text-white px-12 py-4 rounded-full font-bold transition-all shadow-2xl hover:-translate-y-1 uppercase tracking-widest text-sm active:scale-95">
             Browse Our Collection & Call
           </button>
         </a>
