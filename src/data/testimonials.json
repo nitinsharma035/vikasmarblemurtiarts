@@ -1,50 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Rajesh Sharma",
-    "location": "Jaipur, Rajasthan",
+    "name": "Shubham Ghosh",
+    "location": "West bengal, India",
     "rating": 5,
-    "text": "Vikas Marble Murti Arts se maine Radha Krishna ki murti mangwayi thi. Finishing aur marble ki quality lajawab hai. Packing bhi bahut safe thi.",
-    "date": "2 months ago"
+    "text": "Extremely satisfied with my purchase from Vikash Marble Murti Arts. The murti is beautifully crafted with excellent finishing and attention to detail. It was delivered safely in perfect condition and offers outstanding quality at a reasonable price. Highly recommended!"
   },
   {
     "id": 2,
-    "name": "Anjali Gupta",
-    "location": "Mumbai, Maharashtra",
+    "name": "Gopal Sharma",
+    "location": "Alwar, Rajasthan",
     "rating": 5,
-    "text": "The craftsmanship is top-notch. The details on the face of the Ganesha idol are very divine. Highly recommend for premium marble work.",
-    "date": "1 month ago"
-  },
+    "text": "Very satisfied with my purchase from Vikash Marble Murti Arts. The murti was beautifully designed, well-finished, and delivered in perfect condition. Great quality at a reasonable price. Highly recommended."
+    },
   {
     "id": 3,
-    "name": "Suresh Iyer",
-    "location": "Chennai, Tamil Nadu",
+    "name": "Madhu Bala",
+    "location": "Hyderabad, Telangana",
     "rating": 5,
-    "text": "Ordered a custom Sai Baba statue. The white Makrana marble used is pure and the expression is very peaceful. Excellent work!",
-    "date": "3 weeks ago"
-  },
-  {
-    "id": 4,
-    "name": "Meena Agarwal",
-    "location": "Kolkata, West Bengal",
-    "rating": 5,
-    "text": "Professional service. They shared photos of the carving process at every stage. The Durga Maa idol reached safely and on time.",
-    "date": "2 weeks ago"
-  },
-  {
-    "id": 5,
-    "name": "Vikram Singh",
-    "location": "Delhi, India",
-    "rating": 5,
-    "text": "Best place for authentic marble art. Their team is very skilled. The Ram Darbar set we bought is the center of attraction in our home.",
-    "date": "10 days ago"
-  },
-  {
-    "id": 6,
-    "name": "Dr. Amit Verma",
-    "location": "Lucknow, UP",
-    "rating": 5,
-    "text": "Quality and commitment is what defines them. High-quality marble and very fine intricate carving. Truly satisfied with the experience.",
-    "date": "5 days ago"
-  }
+    "text": "Beautiful murtis, quality is very nice"
+  } 
 ]
