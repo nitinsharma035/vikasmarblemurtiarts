@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Sabhi zaroori icons import kiye gaye hain
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaPinterest } from "react-icons/fa";
 import { Phone, Mail, MapPin, Heart, Instagram } from "lucide-react";
 
 const Footer = () => {
@@ -36,6 +36,14 @@ const Footer = () => {
                 className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300 border border-white/10"
               >
                 <Instagram size={20} />
+              </a>
+              <a
+                href="https://in.pinterest.com/vikasmarblemurtiarts/_created" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 bg-white/5 rounded-full hover:bg-[#c02177] transition-all duration-300 border border-white/10"
+              >
+                <FaPinterest  size={20} />
               </a>
               <a
                 href="https://wa.me/9664106898" 
