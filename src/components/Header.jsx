@@ -46,7 +46,7 @@ const Header = () => {
             </a>
           </div> 
           <div className="md:hidden flex items-center">
-            <button onClick={() => setIsOpen(true)} className="p-2 text-[#c02177]">
+            <button onClick={() => setIsOpen(true)} className="p-2 text-[#c02177]" aria-label="Open navigation menu">
               <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
@@ -62,7 +62,7 @@ const Header = () => {
         <div className="p-6 flex flex-col h-full text-white">
           <div className="flex justify-between items-center mb-10">
             <img src="/image/logo.jpg" alt="Logo" className="h-10 w-auto brightness-0 invert" />
-            <button onClick={() => setIsOpen(false)}>
+            <button onClick={() => setIsOpen(false)} aria-label="Close navigation menu">
               <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
